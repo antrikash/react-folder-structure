@@ -1,0 +1,21 @@
+.root {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.text:hover {
+  color: #86BC25;
+}
+
+.completed {
+  opacity: .3;
+  text-decoration: line-through;
+}
